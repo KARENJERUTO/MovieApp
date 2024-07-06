@@ -1,8 +1,10 @@
-package com.example.popcornplex
+package com.example.popcornplex.ui.movieList
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.popcornplex.data.MovieService
+import com.example.popcornplex.data.Result
 
 class MovieViewModel : ViewModel() {
     private val movieService = MovieService()

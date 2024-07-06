@@ -1,4 +1,4 @@
-package com.example.popcornplex
+package com.example.popcornplex.ui.movieList
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -9,6 +9,9 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.popcornplex.adapter.MovieAdapter
+import com.example.popcornplex.R
+import com.example.popcornplex.data.Result
 
 class MovieListFragment : Fragment() {
 

@@ -1,4 +1,4 @@
-package com.example.popcornplex
+package com.example.popcornplex.data
 
 data class Result(
     val adult: Boolean,

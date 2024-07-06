@@ -1,4 +1,4 @@
-package com.example.popcornplex
+package com.example.popcornplex.data
 
 // MovieService.kt
 import okhttp3.*

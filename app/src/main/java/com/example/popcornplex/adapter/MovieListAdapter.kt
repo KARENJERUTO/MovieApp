@@ -1,4 +1,4 @@
-package com.example.popcornplex
+package com.example.popcornplex.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.popcornplex.R
+import com.example.popcornplex.data.Result
 import com.squareup.picasso.Picasso
 
 class MovieAdapter : RecyclerView.Adapter<MovieAdapter.MovieViewHolder>() {
